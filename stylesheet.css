@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'georgia', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, cyan, lightcyan);
+}
+
+#popupBox img {
+    width: 100%;
+    height: 300px;
+}
+
+#popupBox {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+}
+
+.offerText {
+    padding: 20px 40px 40px 40px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.offerText h2 {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.offerText small {
+    display: inline-block;
+    color: #ff2b4e;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.offerText form {
+    margin-top: 30px;
+    display: flex;
+    background: #efefef;
+    border-radius: 4px;
+
+}
+
+.offerText form input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 12px 10px
+}
+
+.offerText form  button {
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    background: #ff2b4e;
+    color: #fff;
+    padding: 0 15px;
+    border-radius: 4px;
+
+}
+
+.closeIcon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+
+
+}
